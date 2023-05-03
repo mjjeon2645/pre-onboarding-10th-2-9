@@ -9,15 +9,15 @@ const SearchBar = () => {
     setText(value);
   };
 
-  const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
-    console.log(event);
+  const handleClick = () => {
+    // TODO: 이벤트핸들링 추가
   };
 
   const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
     const { key } = event;
 
     if (key === 'Enter') {
-      console.log('엔터 눌렸다!');
+      // TODO: 이벤트핸들링 추가
     }
   };
 
