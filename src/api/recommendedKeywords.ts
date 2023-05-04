@@ -34,7 +34,9 @@ const getData = async (keyword: string) => {
 const fetchRecommendedKeywords = async (keyword: string) => {
   try {
     const data = await getData(keyword);
+
     console.info('calling api');
+
     return data;
   } catch (error) {
     return error;
